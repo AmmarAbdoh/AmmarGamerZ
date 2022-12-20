@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/TicTacToeStyle.css">
+
+    <title>TIC-TAC-TOE</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div id="popup">
+            <h1>Choose a Mode</h1>
+            <br>
+            <button id="mode1" class="btn popup-btn">Player VS Player</button>
+            <button id="mode2" class="btn popup-btn">Player VS AI (EASY)</button>
+            <button id="mode3" class="btn popup-btn">Player VS AI (HARD)</button>
+        </div>
+        <div id="overlay"></div>
+        <div class="board">
+            <span class="square square1" id="square1">&nbsp;</span>
+            <span class="square square2" id="square2">&nbsp;</span>
+            <span class="square square3" id="square3">&nbsp;</span>
+            <span class="square square4" id="square4">&nbsp;</span>
+            <span class="square square5" id="square5">&nbsp;</span>
+            <span class="square square6" id="square6">&nbsp;</span>
+            <span class="square square7" id="square7">&nbsp;</span>
+            <span class="square square8" id="square8">&nbsp;</span>
+            <span class="square square9" id="square9">&nbsp;</span>
+        </div>
+        <div class="msg-brd">
+            <h1 class="msg" id="msg">&nbsp;</h1>
+            <button class="btn" onclick="Reset_Game()" id="reset">Reset</button>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript" src="../script/TicTacToeScript.js"></script>
+</body>
+
+</html>

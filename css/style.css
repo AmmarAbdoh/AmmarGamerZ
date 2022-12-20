@@ -232,6 +232,11 @@ body {
     background-color: white;
 }
 
+.tic-tac-toe{
+    background-image: url(../img/tic.png);
+    background-color: white;
+}
+
 .apps :hover {
     background-size: 60%;
     filter: none;
